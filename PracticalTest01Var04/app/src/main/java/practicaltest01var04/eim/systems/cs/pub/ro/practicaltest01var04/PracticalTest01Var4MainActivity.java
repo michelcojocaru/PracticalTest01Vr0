@@ -71,7 +71,7 @@ public class PracticalTest01Var4MainActivity extends AppCompatActivity {
 
                 if(counter > Constants.NUMBER_OF_CLICKS_THREASHOLD && serviceStatus == Constants.SERVICE_STOPPED){
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04Service.class);
-                    intent.putExtra("send",counter);
+                    intent.putExtra("text",textString);
 
                     getApplicationContext().startService(intent);
                     serviceStatus = Constants.SERVICE_STARTED;
@@ -88,7 +88,7 @@ public class PracticalTest01Var4MainActivity extends AppCompatActivity {
 
                 if(counter > Constants.NUMBER_OF_CLICKS_THREASHOLD && serviceStatus == Constants.SERVICE_STOPPED){
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04Service.class);
-                    intent.putExtra("text",counter);
+                    intent.putExtra("text",textString);
 
                     getApplicationContext().startService(intent);
                     serviceStatus = Constants.SERVICE_STARTED;
@@ -105,7 +105,7 @@ public class PracticalTest01Var4MainActivity extends AppCompatActivity {
 
                 if(counter > Constants.NUMBER_OF_CLICKS_THREASHOLD && serviceStatus == Constants.SERVICE_STOPPED){
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04Service.class);
-                    intent.putExtra("send",counter);
+                    intent.putExtra("text",textString);
 
                     getApplicationContext().startService(intent);
                     serviceStatus = Constants.SERVICE_STARTED;
@@ -122,7 +122,7 @@ public class PracticalTest01Var4MainActivity extends AppCompatActivity {
 
                 if(counter > Constants.NUMBER_OF_CLICKS_THREASHOLD && serviceStatus == Constants.SERVICE_STOPPED){
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04Service.class);
-                    intent.putExtra("send",counter);
+                    intent.putExtra("text",textString);
 
                     getApplicationContext().startService(intent);
                     serviceStatus = Constants.SERVICE_STARTED;
@@ -139,7 +139,7 @@ public class PracticalTest01Var4MainActivity extends AppCompatActivity {
 
                 if(counter > Constants.NUMBER_OF_CLICKS_THREASHOLD && serviceStatus == Constants.SERVICE_STOPPED){
                     Intent intent = new Intent(getApplicationContext(), PracticalTest01Var04Service.class);
-                    intent.putExtra("send",counter);
+                    intent.putExtra("text",textString);
 
                     getApplicationContext().startService(intent);
                     serviceStatus = Constants.SERVICE_STARTED;
